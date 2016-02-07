@@ -28,18 +28,22 @@ ssh username@opscenteripaddress
 Next, you'll want to install the needed applications to get the demo up and running. 
 >**Note:** Feel free to use your own content, but if any of your content is Python based, you'll need to do this. This does take a while so make sure you give yourself some lead time.
 
-```wget https://github.com/Marcinthecloud/Solr-Amazon-Book-Demo/archive/master.zip```
+**Do this first:**
+```
+cd
+wget https://github.com/Marcinthecloud/AzureTechDaySetup/archive/master.zip```
+sudo apt-get install unzip
+unzip master.zip
+```
 
-To make this easy for you, there's 'config.sh' you can run which contain the following commands. 
+To make this easy for you, there's 'setup.sh' you can now run which contain the following commands. 
 
 ```
-sudo apt-get install unzip
 sudo apt-get install python-pip
 sudo apt-get install python-dev
 sudo pip install cassandra-driver
 cd
-unzip master.zip
-python Solr-Amazon-Book-Demo-master/solr_dataloader.py
-Solr-Amazon-Book-Demo-master/create_core.sh
+python AzureTechDaySetup-master/DSE Setup/solr_dataloader.py
+AzureTechDaySetup-master/DSE Setup/create_core.sh
 ```
 
