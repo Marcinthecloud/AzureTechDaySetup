@@ -31,7 +31,7 @@ Next, you'll want to install the needed applications to get the demo up and runn
 **Do this first:**
 ```
 cd
-wget https://github.com/Marcinthecloud/AzureTechDaySetup/archive/master.zip```
+wget https://github.com/Marcinthecloud/AzureTechDaySetup/archive/master.zip
 sudo apt-get install unzip
 unzip master.zip
 ```
