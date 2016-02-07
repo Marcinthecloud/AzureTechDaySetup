@@ -36,7 +36,7 @@ sudo apt-get install unzip
 unzip master.zip
 ```
 
-To make this easy for you, there's 'setup.sh' you can now run which contain the following commands. 
+To make this easy for you, there's 'setup.sh' you can run now which contains the following commands. 
 
 ```
 sudo apt-get install python-pip
@@ -46,4 +46,7 @@ cd
 python AzureTechDaySetup-master/DSE Setup/solr_dataloader.py
 AzureTechDaySetup-master/DSE Setup/create_core.sh
 ```
+
+
+Now you're ready to start the show. As an example of what you can do, check out: https://github.com/Marcinthecloud/DataStaxDay
 
