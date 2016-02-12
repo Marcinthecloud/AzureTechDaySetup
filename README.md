@@ -36,15 +36,15 @@ sudo apt-get install unzip
 unzip master.zip
 ```
 
-To make this easy for you, there's 'setup.sh' you can run now which contains the following commands. 
+To make this easy for you, there's a 'setup.sh' you can run which **DOES EVERYTHING** for you. It contains the following commands. 
 
 ```
 sudo apt-get install python-pip
 sudo apt-get install python-dev
 sudo pip install cassandra-driver
-cd
-python AzureTechDaySetup-master/DSE Setup/solr_dataloader.py
-AzureTechDaySetup-master/DSE Setup/create_core.sh
+cd AzureTechDaySetup-master/DSESetup/
+python solr_dataloader.py
+./create_core.sh
 ```
 
 
