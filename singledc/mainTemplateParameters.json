@@ -1,0 +1,17 @@
+{
+  "nodeCount": {
+    "value": 5
+  },
+  "vmSize": {
+    "value": "Standard_D13"
+  },
+  "adminUsername": {
+    "value": "datastax"
+  },
+  "adminPassword": {
+    "value": "C@ssandra"
+  },
+  "nodeType": {
+    "value": "solr"
+  }
+}
