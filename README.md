@@ -5,7 +5,7 @@ DataStax Azure Tech Day
 This is a simple git that'll help SE's get up and running for Microsoft/Azure based events
 ----------
 
-###Steps For Success:
+### Marc's **7** Steps to Success:
 
 1. **For ultimate convenience:** Hit the 'Easy Button'
 
@@ -13,15 +13,22 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 3. Choose the right number of nodes and instance type (1-2 cores per person)
 
+4. Get the OpsCenter IP from resources.azure.com (see below)
+
+5. Once all nodes have provisioned, ssh into the cluster and restart DSE in Search + Analytics mode
+
+6. Run the setup script in the root of this git.
+
+7. Fork this git and make it unique to the class (edit IP's, URL's ETC): https://github.com/Marcinthecloud/DataStaxDay
+    >>Note, all nodes now have public IP's so you'll have acces to DevCenter, Spark UI, and Solr UI
+
 You will login with:
 
 >**Username: datastax**
 
 >**Password: C@ssandra**
 
-ALL IP's are public now. You can find them at resources.azure.com under Subscriptions -> SE/SA -> Your group -> Network -> PublicIP
-
-You will want to fork this repo and make it your own for the class: https://github.com/Marcinthecloud/DataStaxDay
+**To get your public IP's:** You can find them at resources.azure.com under Subscriptions -> SE/SA -> Your group -> Network -> PublicIP
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMarcintheCloud%2FAzureTechDaySetup%2Fmaster%2Fsingledc%2FmainTemplate.json" target="_blank">
     <img src="http://susankaywyatt.com/wp-content/uploads/2010/10/staples-easy-button.png"/>
