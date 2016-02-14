@@ -9,15 +9,16 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 **Make sure you change the resource group in the Azure Portal before deploying**
 
->>Username: datastax
->>Password: C@ssandra
+>**Username: datastax**
+
+>**Password: C@ssandra**
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMarcintheCloud%2FAzureTechDaySetup%2Fmaster%2Fsingledc%2FmainTemplate.json" target="_blank">
     <img src="http://susankaywyatt.com/wp-content/uploads/2010/10/staples-easy-button.png"/>
 </a>
 
 
-
+You will want to fork this repo and make it your own for the class: https://github.com/Marcinthecloud/DataStaxDay
 
 Logistics
 -------------
@@ -59,6 +60,3 @@ cd AzureTechDaySetup-master/DSESetup/
 python solr_dataloader.py
 ./create_core.sh
 ```
-
-
-Now you're ready to start the show. As an example of what you can do, check out: https://github.com/Marcinthecloud/DataStaxDay
