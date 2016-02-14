@@ -7,6 +7,11 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 **For ultimate convenience:** Hit the 'Easy Button'
 
+**Make sure you change the resource group in the Azure Portal before deploying**
+
+>>Username: datastax
+>>Password: C@ssandra
+
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMarcintheCloud%2FAzureTechDaySetup%2Fmaster%2Fsingledc%2FmainTemplate.json" target="_blank">
     <img src="http://susankaywyatt.com/wp-content/uploads/2010/10/staples-easy-button.png"/>
 </a>
@@ -19,7 +24,7 @@ Logistics
 
 If you've never used the Azure portal before, contact help desk to get access, then watch Ben Lackey's how-to: https://www.youtube.com/watch?v=tmXdSEMjwCE
 
-It'll be a good idea to get comfortable with the resource manager. It'll be a good idea to walk users through it during Microsoft events.
+It'll be a good idea to get comfortable with the resource manager. It might be a good idea to walk users through it during Microsoft events.
 I tend to use the ```DataStax Production``` image.
 
 **To SSH into the cluster:**
