@@ -19,7 +19,7 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 6. Copy and paste the commands in the setup script in the root of this git on one of the nodes.
 
-    >>Hint: `vi setup.sh` then paste the commands then `chmod +x setup.sh` finally `./setup.sh`
+    >>Hint: `vi setup.sh` then paste the commands and run `chmod +x setup.sh` and finally `./setup.sh`
 
 7. Fork this git (which includes deck and instructions) and make it unique to the class (edit IP's, URL's ETC): https://github.com/Marcinthecloud/DataStaxDay
 
@@ -44,6 +44,6 @@ You will login with:
 
 Automated install of data and cores
 
-Spark Notebook! 
+Spark Notebook!
 
 Automatically provision in Spark + Solr mode (requires a custom template that runs independant of OpsCenter)
