@@ -17,7 +17,9 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 5. Once all nodes have provisioned, ssh into the cluster and restart DSE in Search + Analytics mode
 
-6. Run the setup script in the root of this git.
+6. Copy and paste the commands in the setup script in the root of this git on one of the nodes.
+
+    >>Hint: `vi setup.sh` then paste the commands then `chmod +x setup.sh` finally `./setup.sh`
 
 7. Fork this git (which includes deck and instructions) and make it unique to the class (edit IP's, URL's ETC): https://github.com/Marcinthecloud/DataStaxDay
 
