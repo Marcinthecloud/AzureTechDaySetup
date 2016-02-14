@@ -5,20 +5,29 @@ DataStax Azure Tech Day
 This is a simple git that'll help SE's get up and running for Microsoft/Azure based events
 ----------
 
-**For ultimate convenience:** Hit the 'Easy Button'
+###Steps For Success:
 
-**Make sure you change the resource group in the Azure Portal before deploying**
+1. **For ultimate convenience:** Hit the 'Easy Button'
+
+2. Change the resource group and region you'll deploy in
+
+3. Choose the right number of nodes and instance type (1-2 cores per person)
+
+You will login with:
 
 >**Username: datastax**
 
 >**Password: C@ssandra**
+
+ALL IP's are public now. You can find them at resources.azure.com under Subscriptions -> SE/SA -> Your group -> Network -> PublicIP
+
+You will want to fork this repo and make it your own for the class: https://github.com/Marcinthecloud/DataStaxDay
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMarcintheCloud%2FAzureTechDaySetup%2Fmaster%2Fsingledc%2FmainTemplate.json" target="_blank">
     <img src="http://susankaywyatt.com/wp-content/uploads/2010/10/staples-easy-button.png"/>
 </a>
 
 
-You will want to fork this repo and make it your own for the class: https://github.com/Marcinthecloud/DataStaxDay
 
 Logistics
 -------------
