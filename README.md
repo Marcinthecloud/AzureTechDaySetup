@@ -1,4 +1,4 @@
-DataStax Azure Tech Day
+DataStax Azure Tech Day (Microsoft AMP Trainings)
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
 
