@@ -19,8 +19,10 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 6. Run the setup script in the root of this git.
 
-7. Fork this git and make it unique to the class (edit IP's, URL's ETC): https://github.com/Marcinthecloud/DataStaxDay
+7. Fork this git (which includes deck and instructions) and make it unique to the class (edit IP's, URL's ETC): https://github.com/Marcinthecloud/DataStaxDay
+
     >>Note, all nodes now have public IP's so you'll have acces to DevCenter, Spark UI, and Solr UI
+
 
 You will login with:
 
