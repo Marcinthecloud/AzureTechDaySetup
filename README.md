@@ -7,7 +7,7 @@ This is a simple git that'll help SE's get up and running for Microsoft/Azure ba
 
 ### Marc's **7** Steps to Success:
 
-1. **For ultimate convenience:** Hit the 'Easy Button'
+1. **For ultimate convenience:** Hit the 'Easy Button' below
 
 2. Change the resource group and region you'll deploy in
 
